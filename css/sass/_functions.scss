@@ -1,0 +1,41 @@
+/**
+ * Functions
+ */
+
+
+ @mixin sprite($left: 0, $top: 0, $color: transparent) {
+	background: $color $sprite $left $top no-repeat;
+ }
+
+ @mixin background($left: 0, $top: 0, $color: transparent) {
+	background: $color $backgound $left $top no-repeat;
+ }
+
+ @mixin rounded($value){
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	-o-border-radius: $value;
+	border-radius: $value;
+ }
+
+ @mixin shadow($value){
+	-webkit-box-shadow: $value;
+	-moz-box-shadow: $value;
+	-o-box-shadow: $value;
+	box-shadow: $value;
+ }
+ @mixin scale($value1, $value2){
+	-webkit-transform: scale($value1, $value2);
+	-moz-transform: scale($value1, $value2);
+ }
+
+ /**
+  * value in decimals
+  */
+ @mixin opacity($value){
+	opacity: $value; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=$value*100); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=$value*100)"; /* IE 8 */
+	-khtml-opacity: $value; /* Safari 1.x */
+	-moz-opacity: $value; /* FF lt 1.5, Netscape */
+ }

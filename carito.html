@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="Davsket.css">
+    <title>Happy Birthday Carito | Davsket</title>
+    <link rel="shortcut icon" href="http://www.davsket.com/favico.gif" type="image/gif" >
+    <link rel="icon" href="http://www.davsket.com/favico.gif" type="image/gif" >
+    <script type="text/javascript" src="swfobject.js"></script>  
+    <script type="text/javascript">
+      function onYouTubePlayerReady(playerId) {
+          ytplayer = document.getElementById("myytplayer");
+      }
+      function pause() {
+        pauseBtn = document.getElementById("pauseplay");
+        if(pauseBtn.innerHTML=="|| pause music"){
+          pauseBtn.innerHTML="> play music";
+          if (ytplayer) {
+            ytplayer.pauseVideo();
+          }
+        }else{
+            pauseBtn.innerHTML="|| pause music";
+            if (ytplayer) {
+              ytplayer.playVideo();
+            }
+        }
+      }
+      function loaded(){
+        var carito="<a id='carito' href='http://twitter.com/caritoparra' target='_blank'>@caritoparra</a>";
+        var messages=new Array();
+        messages[0]="<span id='hbday'>Happy Birthday</span> to you "+carito+"!!!";
+      	messages[1]="I hope you´ll get a lot of presents today! "+carito;
+      	messages[2]="I have a nice present for you "+carito;
+        messages[3]="I hope you have a really nice day "+carito;
+        messages[4]="Black, gray and red.. :P and yours "+carito;
+        messages[5]="Which continent do you want? "+carito;
+        messages[6]="I'll be with you before 6, 4 sure "+carito;
+        var randomnumber=Math.floor(Math.random()*messages.length);
+        var messagediv = document.getElementById("message");
+        messagediv.innerHTML=messages[randomnumber];
+      }
+      
+    </script>
+  </head>
+  <body onload="loaded();">
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    <div id="wrapper">
+      <a id="pauseplay" href="javascript:void(0);" onclick="pause();">|| pause music</a>
+      <h1>I hope you like muffins..</h1>
+      <p id="message"></p>
+      <p>by <a id="davsket" href="http://twitter.com/caritoparra" target="_blank">@davsket</a></p>
+      <div id="ytapiplayer">
+      
+      </div>    
+      <script type="text/javascript">
+      var params = { allowScriptAccess: "always" };
+      var atts = { id: "myytplayer" };
+      swfobject.embedSWF("http://www.youtube.com/v/sO5d8Ov7TI4&enablejsapi=1&playerapiid=ytplayer&autoplay=1", 
+                         "ytapiplayer", "0", "0", "8", null, null, params, atts);
+      </script>
+      <a id="flickr" href="http://www.flickr.com/photos/jemappellealicia/3286515048/in/set-72157605901395128/" target="_blank">Photo from jemappellealicia</a>
+      <script	type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-10555523-1");
+        pageTracker._trackPageview();
+        } catch(err) {}
+      </script>
+    </div>
+  </body>
+</html>
