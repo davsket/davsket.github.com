@@ -164,32 +164,30 @@ span {
   font-size: 118px;
   font-weight: 300;
   top: 135px;
-  right: 0;
-  letter-spacing: -1px;
+  right: -10px;
 }
 
-/* line 103, sass/main.scss */
+/* line 102, sass/main.scss */
 .dev {
-  right: 7px;
+  right: 10px;
   top: 220px;
   font-size: 120px;
   font-weight: 700;
-  letter-spacing: -1px;
-  word-spacing: -3px;
+  letter-spacing: -2px;
   /*-webkit-transform: scale(1, 1.3);*/
 }
 
-/* line 112, sass/main.scss */
+/* line 110, sass/main.scss */
 .js {
-  top: 315px;
+  top: 310px;
   font-size: 100px;
   font-weight: 500;
   letter-spacing: 5px;
 }
 
-/* line 118, sass/main.scss */
+/* line 116, sass/main.scss */
 .other {
-  top: 327px;
+  top: 323px;
   font-size: 30px;
   right: -15px;
   font-weight: 700;
@@ -197,7 +195,7 @@ span {
   text-align: left;
   letter-spacing: 20px;
 }
-/* line 126, sass/main.scss */
+/* line 124, sass/main.scss */
 .other span {
   position: relative;
   font-size: 70px;
@@ -208,35 +206,34 @@ span {
   font-weight: 900;
 }
 
-/* line 136, sass/main.scss */
+/* line 134, sass/main.scss */
 .ninja {
   top: 418px;
-  right: 6px;
+  right: 0;
   font-size: 112px;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-transform: scale(1, 1.4);
   -moz-transform: scale(1, 1.4);
   text-transform: uppercase;
 }
 
-/* line 144, sass/main.scss */
+/* line 142, sass/main.scss */
 .stars {
   top: 430px;
   font-size: 112px;
   font-weight: 500;
   width: 400px;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   line-height: .5em;
   text-align: left;
 }
 
-/* line 153, sass/main.scss */
+/* line 151, sass/main.scss */
 .wanna {
   font-size: 80px;
-  top: 518px;
-  letter-spacing: 1px;
+  top: 520px;
 }
-/* line 158, sass/main.scss */
+/* line 154, sass/main.scss */
 .wanna span {
   font-style: italic;
   display: inline-block;
@@ -249,30 +246,27 @@ span {
   word-spacing: 4px;
 }
 
-/* line 170, sass/main.scss */
+/* line 166, sass/main.scss */
 .cofounder {
   top: 590px;
   font-size: 90px;
   text-align: left;
   font-weight: 900;
   width: 710px;
-  letter-spacing: 12px;
-  word-spacing: 2px;
-  -webkit-transform: scale(1, 0.8);
-  -moz-transform: scale(1, 0.8);
+  letter-spacing: 11px;
 }
-/* line 180, sass/main.scss */
+/* line 173, sass/main.scss */
 .cofounder a {
   display: block;
   position: relative;
   color: #69bcc3;
   text-decoration: none;
   font-size: 156px;
-  letter-spacing: -21px;
+  letter-spacing: -20px;
   font-weight: 700;
   left: -10px;
-  -webkit-transform: scale(1, 1.28);
-  -moz-transform: scale(1, 1.28);
+  -webkit-transform: scale(1, 1.08);
+  -moz-transform: scale(1, 1.08);
   -moz-transition-property: all;
   -webkit-transition-property: all;
   -o-transition-property: all;
@@ -283,13 +277,13 @@ span {
   transition-duration: 200ms;
   top: 10px;
 }
-/* line 193, sass/main.scss */
+/* line 186, sass/main.scss */
 .cofounder a q {
   position: absolute;
   -webkit-transform: scale(1, 0.98);
   -moz-transform: scale(1, 0.98);
-  top: -12px;
-  right: 9px;
+  top: -20px;
+  right: 0;
   left: auto;
   font-size: 30px;
   font-weight: 500;
@@ -299,29 +293,25 @@ span {
   text-align: center;
   line-height: 1em;
 }
-/* line 207, sass/main.scss */
+/* line 199, sass/main.scss */
 .cofounder a q:before {
   content: "(";
   position: absolute;
-  left: -10px;
+  left: -15px;
   font-size: 140px;
   font-weight: 100;
   top: 45px;
-  -webkit-transform: scale(0.6, 1);
-  -moz-transform: scale(0.6, 1);
 }
-/* line 216, sass/main.scss */
+/* line 207, sass/main.scss */
 .cofounder a q:after {
   content: ")";
   position: absolute;
-  right: -10px;
+  right: -15px;
   font-size: 140px;
   font-weight: 100;
   top: 45px;
-  -webkit-transform: scale(0.6, 1);
-  -moz-transform: scale(0.6, 1);
 }
-/* line 226, sass/main.scss */
+/* line 216, sass/main.scss */
 .cofounder a:hover {
   color: #8dccd2;
   -webkit-transform: scale(1, 1.2);
@@ -329,7 +319,7 @@ span {
   cursor: pointer;
 }
 
-/* line 233, sass/main.scss */
+/* line 223, sass/main.scss */
 .dah {
   font-size: 30px;
   letter-spacing: 9px;
@@ -342,7 +332,7 @@ span {
   -moz-transform: scale(1, 2);
   text-shadow: 0.04em 0.04em #327c8c;
 }
-/* line 243, sass/main.scss */
+/* line 233, sass/main.scss */
 .dah span {
   position: relative;
   top: 2px;
@@ -354,7 +344,7 @@ span {
   text-shadow: 0.04em 0.04em #327c8c, -0.05em -0.05em #69bcc3;
 }
 
-/* line 253, sass/main.scss */
+/* line 243, sass/main.scss */
 .guitar {
   top: 830px;
   font-size: 170px;
