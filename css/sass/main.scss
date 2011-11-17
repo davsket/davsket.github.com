@@ -241,10 +241,11 @@ span{
 	}
 }
 .guitar{
-	top: $delta-top + 830px;
+	top: $delta-top + 890px;
     font-size: 170px;
 	font-family: "bistro-script-web-1","bistro-script-web-2",serif;
 	font-style: italic;
-	color: $color-guitar;
-	text-shadow: 0.02em 0.02em $color-guitar-shadow;
+	color: $color-fuente;
+	text-shadow: 0.02em 0.02em $color-sombra;
+	@include scale(1, 1.7);
 }
