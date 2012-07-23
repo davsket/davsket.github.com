@@ -26,8 +26,8 @@
 		font-size: 20em;
 		line-height: 0.05em;
 		color: white;
-		margin: 0.35em 0 0.4em;
-		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+		margin: 0.35em 0 0.5em;
+		text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 	}
 	h1,
 	h2{
@@ -52,6 +52,13 @@
 			background: #F34841;
 			display: inline-block;
 			padding: 0 0.3em;
+			max-width: 7em;
+		}
+	h2.big{
+		margin-bottom: 1.4em;
+	}
+		h2.big span{
+			top: 1.15em;
 		}
 	.body{
 		width: 18em;
@@ -62,13 +69,24 @@
 		margin-top: 4em;
 		/*border-bottom: 10px solid rgba(0,0,0,0.6);*/
 	}
-	a{
-		color: rgba(255,255,255,0.8);
-		font-weight: 300;
-		/*text-decoration: none;
-		border-bottom: 1px solid;*/
-		margin: 0 2px;
-	}
+		.body a {
+			display: inline-block;
+			background: white;
+			padding: 0.13em 0.45em;
+			border-radius: 0.65em;
+			text-decoration: none;
+			margin: 0 0.1em 0.7em;
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), inset 0 -1px 2px rgba(68, 1, 1, 0.36);
+			color: #BD3A35;
+			text-shadow: 0px 0px 2px rgba(255, 72, 65, 0.95);
+			/*-webkit-transition: all 100ms linear;*/
+		}
+		.body a:hover{
+			box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 -1px 2px rgba(68, 1, 1, 0.36);
+		}
+		.body a:active{
+			box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(68, 1, 1, 0.5);
+		}
 	.intro{
 		margin: auto;
 		width: 30em;
@@ -91,22 +109,22 @@
 	<p class="intro">Hello, my name is David Avellaneda, and I'm cofounder / front-end developer at <a href="http://monoku.com" target="_blank">monoku</a>.</p>
 
 	<div class="body">
-		<h2><span>these are my apps</span></h2> 
-		<a href="http://notes.davsket.me" target="_blank">Notes</a> 
-		<a href="http://davsket.me/fonttag" target="_blank">Fonttag</a>
-
-		<h2><span>here is my contact</span></h2> 
+		<h2><span>you can find me at</span></h2> 
 		<a href="http://twitter.com/davsket" target="_blank">Twitter</a>
 		<a href="http://last.fm/user/davsket" target="_blank">Last.fm</a>
 		<a href="http://davsket.tumblr.com" target="_blank">Tumblr</a>
 		
-		<h2><span>and some libraries I did</span></h2> 
+		<h2><span>these are my apps</span></h2> 
+		<a href="http://notes.davsket.me" target="_blank">Notes</a> 
+		<a href="http://davsket.me/fonttag" target="_blank">Fonttag</a>
+
+		<h2 class="big"><span>and some libraries &amp; tools I did</span></h2> 
 		<a href="http://monoku.github.com/knvs/" target="_blank">Knvs</a>
 		<a href="http://davsket.me/emile/" target="_blank">Emile</a> 
 		<a href="http://davsket.me/Grid/" target="_blank">Grid</a>
 		<a href="http://davsket.me/snippets/" target="_blank">Snipets</a>
 		<a href="https://github.com/davsket/notes" target="_blank">Notes</a>
 		<a href="https://github.com/davsket/fonttag" target="_blank">Fonttag</a>
-		<a href="http://monoku.github.com/monokuselecta/" target="_blank">Monoku-Selecta</a>
+		<a href="http://monoku.github.com/monokuselecta/" target="_blank">MonokuSelecta</a>
 	</div>
 
