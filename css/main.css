@@ -14,7 +14,15 @@ html {
   -webkit-font-smoothing: antialiased;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  color: #333;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #0099da;
+  background-image: linear-gradient(50deg, #003248, #0099da);
+}
+
+@media screen and (max-width: 370px) {
+  html {
+    padding: 4rem 2rem;
+  }
 }
 
 .content {
@@ -33,6 +41,7 @@ html {
 .name {
   font-size: 1.8rem;
   font-weight: normal;
+  line-height: 1;
 }
 
 .social-bar {
@@ -41,7 +50,7 @@ html {
 }
 
 .social-link {
-  color: #666;
+  color: rgba(255, 255, 255, 0.5);
   display: inline-block;
   font-size: 1.5rem;
   margin: 0.3rem;
@@ -51,5 +60,5 @@ html {
 
 .social-link:hover {
   transform: translate(0, -0.2rem) scale(1.1);
-  color: #333;
+  color: rgba(255, 255, 255, 0.85);
 }
