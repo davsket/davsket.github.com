@@ -1,0 +1,55 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4;
+  min-height: 100%;
+  text-align: center;
+  padding: 5rem 3rem;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.content {
+  margin: auto;
+  max-width: 500px;
+  padding-bottom: 2rem;
+}
+
+.avatar {
+  border-radius: 100%;
+  max-width: 150px;
+  width: 40vw;
+  pointer-events: none;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.social-bar {
+  display: block;
+  margin-top: 2rem;
+}
+
+.social-link {
+  color: #666;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0.3rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.social-link:hover {
+  transform: translate(0, -0.2rem) scale(1.1);
+  color: #333;
+}
